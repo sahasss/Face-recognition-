@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 
 
-face_classifier = cv2.CascadeClassifier(r'C:\Users\Sahas Vishanth M.V\Desktop\Computer Vision\FACE_RECOGNITION\haarcascade\haarcascade_frontalface_default.xml')
-eye_classifier = cv2.CascadeClassifier(r'C:\Users\Sahas Vishanth M.V\Desktop\Computer Vision\FACE_RECOGNITION\haarcascade\haarcascade_eye.xml')
+face_classifier = cv2.CascadeClassifier(r'haarcascade\haarcascade_frontalface_default.xml')
+eye_classifier = cv2.CascadeClassifier(r'haarcascade\haarcascade_eye.xml')
 
 
 def imshow(title = "Image", image = None, size = 10):
